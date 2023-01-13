@@ -11,10 +11,10 @@ from sklearn.model_selection import GridSearchCV
 # PATH TO ALL IMAGES
 
 global basedir, image_paths, target_size
-basedir_tr = './Dataset/dataset_AMLS_22-23/celeba'
+basedir_tr = './Dataset/celeba'
 images_dir_tr = os.path.join(basedir_tr,'img')
 labels_filename_tr = 'labels.csv'
-basedir_te = './Dataset/dataset_AMLS_22-23_test/celeba_test'
+basedir_te = './Dataset/celeba_test'
 images_dir_te = os.path.join(basedir_te,'img')
 labels_filename_te = 'labels.csv'
 detector = dlib.get_frontal_face_detector()
